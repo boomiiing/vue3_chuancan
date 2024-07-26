@@ -1,6 +1,6 @@
 <template>
   <div style="height:100%; overflow: hidden;">
-    <h1>vue的组件间传参</h1>
+    <h1>vue3的组件间传参</h1>
     <div class="mainBox">
       <div class="nav">
         <ul>
@@ -12,6 +12,15 @@
           </li>
           <li>
             <router-link to="/mitt"  active-class="active" >mitt传参</router-link>
+          </li>
+          <li>
+            <router-link to="/vmodel"  active-class="active" >v-model传参</router-link>
+          </li>
+          <li>
+            <router-link to="/attrs"  active-class="active" >$attrs传参</router-link>
+          </li>
+          <li>
+            <router-link to="/refs&parent"  active-class="active" >$refs与$parent传参</router-link>
           </li>
         </ul>
       </div>
@@ -69,7 +78,7 @@ h1{
   border: 1px solid #000;
   border-radius: 20px;
   padding:10px;
-  flex:1
+  flex:1;
 }
 .active{
   color:#fff !important;
