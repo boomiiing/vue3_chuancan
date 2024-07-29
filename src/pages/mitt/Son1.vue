@@ -16,11 +16,9 @@ function changeToy() {
   toy.value += "~";
 }
 function sendToy(){
-  console.log('asdasd')
   emitter.emit('send-toy1',toy)
 }
 emitter.on('send-toy2',(value)=>{
-  console.log(value)
   toy1.value = value
 })
 onUnmounted(()=>{

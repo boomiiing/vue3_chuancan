@@ -14,7 +14,6 @@ import son from "./son.vue";
 let money = ref(999999999)
 let toy = ref()
 function getToy(value:string){
-  console.log(value)
   toy.value = value
 }
 function changeMoney(){

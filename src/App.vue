@@ -22,6 +22,21 @@
           <li>
             <router-link to="/refs&parent"  active-class="active" >$refs与$parent传参</router-link>
           </li>
+          <li>
+            <router-link to="/provideInject"  active-class="active" >ProvideInject传参</router-link>
+          </li>
+          <li>
+            <router-link to="/Pinia"  active-class="active" >Pinia</router-link>
+          </li>
+          <li>
+            <router-link to="/DefaultSlot"  active-class="active" >默认slot</router-link>
+          </li>
+          <li>
+            <router-link to="/NameSlot"  active-class="active" >具名slot</router-link>
+          </li>
+          <li>
+            <router-link to="/ScopeSlot"  active-class="active" >作用域slot</router-link>
+          </li>
         </ul>
       </div>
       <div class="viewBox">
